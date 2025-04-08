@@ -1,0 +1,95 @@
+body{
+    font-size: 20px;
+}
+
+header{
+    display: flex; /*deixa o layoud flexivel*/
+    align-items: center; /*Alinha os itens verticalmente ao centro*/
+    justify-content: space-between; /*Coloca um espaço entre os itens*/
+    background-color: rgba(175, 161, 161, 0.075); /*Coloca cor de fundo no header*/
+
+
+}
+
+header .profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10%; /*Magem interna*/
+
+}
+
+header .links a{
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.descricao{
+    text-align: center;
+    margin: 20px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+
+}
+
+.bloco{
+    width: 30%;
+    background-color: rgba(175, 161, 161, 0.075);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10%;
+
+    text-align: center;
+}
+
+.falacomigo{
+    text-align: center;
+    margin: 20px;
+}
+
+form{
+    display: inline-block;
+    text-align: left;
+}
+form label{
+    display: block;
+    margin: 5px 0;
+}
+
+form input{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+form button{
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+.informacaoExtra{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    text-align: center;
+}
+
+.bloco2{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid #ddd;
+    border-radius: 10%;
+
+}
